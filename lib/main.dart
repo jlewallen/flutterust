@@ -53,8 +53,8 @@ class _MyHomePageState extends State<MyHomePage> {
               style: Theme.of(context).textTheme.headline4,
             ),
             const SizedBox(height: 100),
-            RaisedButton(
-              color: Colors.greenAccent,
+            ElevatedButton(
+              style: ElevatedButton.styleFrom(primary:Colors.greenAccent),
               child: Text(
                 'Scrape rust-lang.org',
                 style: TextStyle(
