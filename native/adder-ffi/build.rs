@@ -1,4 +1,5 @@
 use dart_bindgen::{config::*, Codegen};
+
 fn main() {
     let crate_dir = std::env::var("CARGO_MANIFEST_DIR").unwrap();
     let config = cbindgen::Config {
